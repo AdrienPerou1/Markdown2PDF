@@ -1,0 +1,154 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Documentation technique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            
+        }
+        
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        
+        h1, h2, h3 {
+            color: #333;
+        }
+        
+        section {
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            text-align: left;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav{
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            text-align: left;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            
+        }
+        
+        code {
+            background-color: #f2f2f2;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1> fichier.c</h1>
+        <p> 
+         Un texte qui décrit ce que fait le fichier source.
+ Par exemple ça peut être une série de fonction
+ utilitaires pour le produit, ou encore le programme
+ complet d’un jeu de Puissance 4 ou d’un Sudoku !
+        </p>
+    </header>   
+
+    <nav>
+        <h2>Table des matières</h2>
+        <ul>
+            <li><a href="#defines">Defines</a></li>
+            <li><a href="#variables">Variables</a></li>
+            <li><a href="#structures">Structures</a></li>
+            <li><a href="#fonctions">Fonctions</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="defines">
+        <h2>Defines</h2>
+        <p>
+
+        <strong> NB_NOTES:</strong> Nombre de notes du bulletin 
+<br>
+<strong> NB_FEUILLES:</strong> Nombre de feuille 
+<br>
+        
+        </p>
+    </section>
+
+    <section id="variables">
+        <h2>Variables</h2>
+        <p>
+            
+        <strong> notes[NB_NOTES]: </strong> Liste des notes d’un étudiant 
+
+        </p>
+    </section>
+
+    <section id="structures">
+        <h2>Structures</h2>
+        <p>
+            
+        <h3><u> sTour</u></h3>
+<strong> id_ligne: </strong> Identifiant de la ligne à modifier 
+<br>
+<strong> id_colonne: </strong> Identifiant de la colonne à modifier 
+<br>
+<h3><u> sGrille </u></h3>
+<strong> grille[3][3]: </strong> Grille entière de morpion 
+<br>
+
+        </p>
+    </section>
+
+    <section id="fonctions">
+        <h2>Fonctions</h2>
+
+        <section>
+        <h3><u> separator</u></h3>
+<strong>Brief :</strong> Affiche une ligne de tiret a l'écran 
+
+<br><strong> Detail :</strong> Cette procédure n'est pas utilisée dans le programme 
+
+<br><h3><u> init</u></h3>
+<strong>Brief :</strong> initialise le jeu 
+
+<br><strong> Detail :</strong> Initialisation de la grille de jeu et des positions possible de jeu 
+ Elle initialise la grille avec des " _ " 
+  La variable i permet d'affiche uniquement 9 traits  
+
+<br><h3><u> checkWinner</u></h3>
+<strong>Brief :</strong> permet de verifier si il y a un gagnant 
+
+<br><strong> Detail :</strong>s Permet grâce au positions données dans la fonction winPossibilities de voir si il y a un gagnant 
+ en vérifiant avec la fonction checkSymbole si les cases sont prises par le même joueur
+
+<br><strong> Retourne :</strong> Retourn win soit a 1 si un joueurs a gagner ou 0 si personne n'a gagner 
+
+<br><strong> Paramètres :</strong> parametre bla lba
+
+<br><h3><u></u></h3>
+ 
+
+</section>
+
+</body>
+
+</html>
